@@ -1,0 +1,32 @@
+name: Suggestion
+title: "[Suggestion]: "
+labels: [Suggestion]
+body:
+  - type: input
+    id: modpack
+    attributes:
+      label: Modpack
+      description: |
+        What modpack you having issues with?
+      placeholder: ex. FTB OceanBlock
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your suggestion related to a problem? Please describe.
+      description: |
+        A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+    validations:
+      required: false
+  - type: textarea
+    id: mod
+    attributes:
+      label: Mod suggestion
+      description: Link to mod and describe why you would like to see the mod in the pack?
+      placeholder: |
+        Link to mod:
+        A clear and concise description of what the mod what add and why you would like it in the pack.
+    validations:
+      required: false
+  
