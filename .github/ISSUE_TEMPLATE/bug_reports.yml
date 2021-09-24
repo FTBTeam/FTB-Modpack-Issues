@@ -1,0 +1,78 @@
+name: Bug Report
+description: Report an issue with the a modpack.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: modpack
+    attributes:
+      label: Modpack
+      description: |
+        What modpack you having issues with?
+      placeholder: ex. FTB OceanBlock
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Modpack version
+      placeholder: ex. 1.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log Files
+      description: "Link(s) to any log files that may help debug your issue"
+      placeholder: https://pste.ch/dotedubine
+    validations:
+      required: false
+  - type: input
+    id: bugdesc
+    attributes:
+      label: Describe the bug
+      description: |
+        A clear and concise description of what the bug is
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Tell us how we can reproduce the issue
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. Scroll down to ...
+        4. See error
+    validations:
+      required: true
+  - type: input
+    id: expectedBehaviour
+    attributes:
+      label: Expected behaviour
+      description: |
+        A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Add any other context about the problem here
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Information
+      options:
+        - label: I have provided as much information as possible
+          required: true
