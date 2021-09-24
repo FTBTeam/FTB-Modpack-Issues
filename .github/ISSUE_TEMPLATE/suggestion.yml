@@ -1,13 +1,12 @@
 name: Suggestion
-title: "[Suggestion]: "
-labels: [Suggestion]
+description: Suggestion
+title: '[Suggestion]: '
 body:
   - type: input
     id: modpack
     attributes:
       label: Modpack
-      description: |
-        What modpack you having issues with?
+      description: What modpack is your suggestion for?
       placeholder: ex. FTB OceanBlock
     validations:
       required: true
@@ -15,18 +14,20 @@ body:
     id: problem
     attributes:
       label: Is your suggestion related to a problem? Please describe.
-      description: |
-        A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-    validations:
-      required: false
+      description: A clear and concise description of what the problem is.
+      placeholder: Ex. I'm always frustrated when [...]
   - type: textarea
     id: mod
     attributes:
       label: Mod suggestion
       description: Link to mod and describe why you would like to see the mod in the pack?
-      placeholder: |
+      placeholder: >
         Link to mod:
-        A clear and concise description of what the mod what add and why you would like it in the pack.
-    validations:
-      required: false
-  
+
+        A clear and concise description of what the mod what add and why you
+        would like it in the pack.
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://www.issue-forms-creator.app/)
