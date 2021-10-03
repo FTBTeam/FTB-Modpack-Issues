@@ -10,4 +10,4 @@
 
 <hr><br>
 
-Wanna just have a chat about the our mods? Jump on our [Discord](https://ftb.team/discord).
+Wanna just have a chat about our mods? Jump on our [Discord](https://ftb.team/discord).
