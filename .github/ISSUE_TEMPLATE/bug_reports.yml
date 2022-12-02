@@ -8,7 +8,6 @@ body:
       description: |
         What modpack you having issues with?
       multiple: false
-      placeholder: ex. FTB OceanBlock
       options:
         - label: FTB StoneBlock 3
         - label: FTB Inferno
