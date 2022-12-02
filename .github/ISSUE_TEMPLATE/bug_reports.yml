@@ -1,6 +1,5 @@
 name: Bug Report
 description: Report an issue with the a modpack.
-title: "[Bug]: "
 body:
   - type: input
     id: modpack
