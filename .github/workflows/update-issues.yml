@@ -10,7 +10,7 @@ jobs:
         with:
           node-version: '16'
       - run: npm run setup:scripts
-      - run: node scripts/template-updater/src/app.js --file ~/.github/ISSUE_TEMPLATE/bug_report.yml
+      - run: node ${{GITHUB_WORKSPACE}}/scripts/template-updater/src/app.js --file ~/.github/ISSUE_TEMPLATE/bug_report.yml
       - name: Commit files
         run: |
           git config --local user.email "mikey@feed-the-beast.com"
