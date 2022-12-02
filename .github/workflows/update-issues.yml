@@ -1,0 +1,21 @@
+name: update-issue-templates
+on: [workflow_dispatch]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: node scripts/template-updater/src/app.js --file ~/.github/ISSUE_TEMPLATE/bug_report.yml
+      - name: Commit files
+        run: |
+          git config --local user.email "mikey@feed-the-beast.com"
+          git config --local user.name "Michael"
+          git commit -a -m "Updated issue templates"
+      - name: Push updates
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}

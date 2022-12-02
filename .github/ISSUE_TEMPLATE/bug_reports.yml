@@ -1,13 +1,16 @@
 name: Bug Report
 description: Report an issue with the a modpack.
 body:
-  - type: input
+  - type: dropdown
     id: modpack
     attributes:
       label: Modpack
       description: |
         What modpack you having issues with?
+      multiple: false
       placeholder: ex. FTB OceanBlock
+      options:
+        - label: Test
     validations:
       required: true
   - type: input
