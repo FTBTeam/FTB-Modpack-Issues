@@ -9,6 +9,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
+      - run: npm install
       - run: node scripts/template-updater/src/app.js --file ~/.github/ISSUE_TEMPLATE/bug_report.yml
       - name: Commit files
         run: |
