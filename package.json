@@ -1,0 +1,19 @@
+{
+  "name": "ftb-modpack-issues",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"><a href=\"https://feed-the-beast.com/modpack\" ><img src=\"/.github/meta/assets/logo.svg\" width=\"150\" /></a></p>",
+  "main": "index.js",
+  "scripts": {
+    "setup:scripts": "cd scripts/template-updater/ && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelHillcox/FTB-Modpack-Issues.git"
+  },
+  "author": "",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/MichaelHillcox/FTB-Modpack-Issues/issues"
+  },
+  "homepage": "https://github.com/MichaelHillcox/FTB-Modpack-Issues#readme"
+}
