@@ -53,7 +53,8 @@ const runScript = async () => {
         .sort((a, b) => b.id - a.id);
 
     // Create the input to push into the yml file.
-    const ymlOptions = modpacks.map(e => ({ label: e.name }))
+    const ymlOptions = modpacks.map(e => e.name)
+    ymlOptions.push("Other...")
 
     console.log(`Getting ready to insert the following yaml data`)
     console.log(ymlOptions)
