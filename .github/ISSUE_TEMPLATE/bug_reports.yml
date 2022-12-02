@@ -10,7 +10,73 @@ body:
       multiple: false
       placeholder: ex. FTB OceanBlock
       options:
-        - label: Test
+        - label: FTB StoneBlock 3
+        - label: FTB Inferno
+        - label: FTB One
+        - label: FTB Plexiglass Mountain
+        - label: FTB Presents Direwolf20 1.18
+        - label: FTB Chocolate
+        - label: "FTB Ultimate: Anniversary Edition"
+        - label: FTB OceanBlock
+        - label: FTB University 1.16
+        - label: FTB Academy 1.16
+        - label: FTB Cotton
+        - label: FTB Endeavour
+        - label: FTB Presents Direwolf20 1.16
+        - label: FTB Mage Quest
+        - label: YogCraft Modpack
+        - label: FTB Ultimate
+        - label: FTB Tech World
+        - label: MindCrack Pack
+        - label: Magic World
+        - label: FTB Lite 2
+        - label: Direwolf20 1.4.7
+        - label: FTB Monster
+        - label: FTB Horizons
+        - label: FTB Presents Direwolf20 - 1.6.4
+        - label: FTB Magic World 2
+        - label: FTB Tech World 2
+        - label: Slow's Stream Pack
+        - label: Pax East 2014 Map
+        - label: FTB Lite
+        - label: FTB Pax Challenge Pack 2013
+        - label: FTB University 1.12
+        - label: FTB Unstable 1.16
+        - label: FTB Builders Paradise
+        - label: FTB Ultimate Reloaded
+        - label: FTB Revelation
+        - label: FTB Continuum
+        - label: FTB Sky Adventures
+        - label: FTB Pyramid Reborn 3.0
+        - label: FTB Presents Direwolf20 1.12
+        - label: FTB Unstable 1.12
+        - label: FTB Horizons III
+        - label: FTB Beyond
+        - label: FTB Egg Hunt
+        - label: FTB SkyFactory Challenges
+        - label: FTB Presents Skyfactory 3
+        - label: FTB Presents Direwolf20 1.10
+        - label: FTB Infinity Evolved 1.7
+        - label: FTB Presents Crackpack
+        - label: FTB Inventions
+        - label: FTB Infinity Evolved Skyblock
+        - label: FTB Presents Skyfactory 2.5
+        - label: FTB Vanilla+
+        - label: "FTB Horizons: Daybreaker"
+        - label: FTB Departed
+        - label: FTB Presents Cloud 9
+        - label: FTB Presents Direwolf20
+        - label: FTB Trident
+        - label: FTB Resurrection
+        - label: FTB Lite 3
+        - label: Pax Prime 2015 Map
+        - label: FTB Presents HermitPack
+        - label: FTB Sky Odyssey
+        - label: FTB Unstable 1.14
+        - label: FTB Omnia
+        - label: FTB Interactions
+        - label: FTB Presents Stoneblock 2
+        - label: FTB Academy 1.12
     validations:
       required: true
   - type: input
@@ -24,7 +90,7 @@ body:
     id: logs
     attributes:
       label: Log Files
-      description: "Link(s) to any log files that may help debug your issue"
+      description: Link(s) to any log files that may help debug your issue
       placeholder: https://pste.ch/dotedubine
     validations:
       required: false
