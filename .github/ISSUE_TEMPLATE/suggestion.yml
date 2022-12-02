@@ -1,6 +1,5 @@
 name: Suggestion
 description: Suggestion
-title: '[Suggestion]: '
 body:
   - type: input
     id: modpack
@@ -26,8 +25,3 @@ body:
 
         A clear and concise description of what the mod what add and why you
         would like it in the pack.
-  - type: markdown
-    attributes:
-      value: >-
-        This template was generated with [Issue Forms
-        Creator](https://www.issue-forms-creator.app/)

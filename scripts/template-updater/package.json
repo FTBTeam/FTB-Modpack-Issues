@@ -1,0 +1,16 @@
+{
+  "name": "template-updater",
+  "version": "1.0.0",
+  "description": "Simple tool used to maintain the modpacks list on the issue templates",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FTB Team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "yaml": "^2.1.3"
+  }
+}

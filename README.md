@@ -1,4 +1,4 @@
-<p align="center"><a href="https://feed-the-beast.com/modpack" ><img src="/.github/meta/assets/logo.png" width="150" /></a></p>
+<p align="center"><a href="https://feed-the-beast.com/modpack" ><img src="/.github/meta/assets/logo.svg" width="150" /></a></p>
 
 <h1 align="center" style="margin-top: 1rem;">FTB Modpack Issues</h1>
 
