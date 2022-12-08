@@ -4,25 +4,33 @@ import fetch from 'node-fetch'
 import YAML from 'yaml'
 
 const args = process.argv;
-const fileLocation = args[args.findIndex(e => e.startsWith("--file")) + 1] ?? null;
+const fileLocation = args[args.findIndex(e => e.startsWith("--github")) + 1] ?? null;
 
-if (!fileLocation || !fileLocation.endsWith(".yml")) {
+if (!fileLocation || !fileLocation.includes("ISSUE_TEMPLATE")) {
     console.error("No file location specified or file is not a yml file")
     process.exit();
 }
 
 const runScript = async () => {
-    const ymlFile = path.resolve(fileLocation);
-    if (!fs.existsSync(ymlFile)) {
-        console.error(`${ymlFile} does not exist`)
+    const githubPath = path.resolve(fileLocation);
+    if (!fs.existsSync(githubPath)) {
+        console.error(`${githubPath} does not exist`)
         return;
     }
 
-    // Ensure we can read and write to the file
-    try {
-        fs.accessSync(ymlFile, fs.constants.R_OK | fs.constants.W_OK)
-    } catch (error) {
-        console.error(`${ymlFile} is not readable or writeable`, error);
+    const targetFiles = fs.readdirSync(githubPath)
+        .filter(e => e.endsWith(".yml") && e !== "config.yml")
+        .map(e => path.join(githubPath, e));
+
+    // Test files
+    for (let targetFile of targetFiles) {
+        // Ensure we can read and write to the file
+        try {
+            fs.accessSync(targetFile, fs.constants.R_OK | fs.constants.W_OK)
+        } catch (error) {
+            console.error(`${targetFile} is not readable or writeable`, error);
+            return;
+        }
     }
 
     // Load all the api data
@@ -59,15 +67,18 @@ const runScript = async () => {
     console.log(`Getting ready to insert the following yaml data`)
     console.log(ymlOptions)
 
-    const ymlFileData = fs.readFileSync(ymlFile, "utf-8");
-    const ymlData = YAML.parse(ymlFileData);
+    for (let targetFile of targetFiles) {
+        const ymlFileData = fs.readFileSync(targetFile, "utf-8");
+        const ymlData = YAML.parse(ymlFileData);
 
-    const packSection = ymlData.body.find(e => e.id === "modpack");
-    if (packSection) {
-        packSection.attributes.options = ymlOptions;
+        const packSection = ymlData.body.find(e => e.id === "ftb-modpack-dropdown");
+        if (packSection) {
+            packSection.attributes.options = ymlOptions;
+        }
+
+        fs.writeFileSync(targetFile, YAML.stringify(ymlData));
     }
 
-    fs.writeFileSync(ymlFile, YAML.stringify(ymlData));
     console.log("Updated file successfully")
 }
 
