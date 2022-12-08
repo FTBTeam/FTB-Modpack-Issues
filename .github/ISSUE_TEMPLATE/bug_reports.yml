@@ -2,11 +2,10 @@ name: Bug Report
 description: Report an issue with the a modpack.
 body:
   - type: dropdown
-    id: modpack
+    id: ftb-modpack-dropdown
     attributes:
       label: Modpack
-      description: |
-        What modpack you having issues with?
+      description: What modpack are you having an issue with?
       multiple: false
       options:
         - FTB Presents Direwolf20 1.19
