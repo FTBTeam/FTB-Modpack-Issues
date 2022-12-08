@@ -9,6 +9,7 @@ body:
         What modpack you having issues with?
       multiple: false
       options:
+        - FTB Presents Direwolf20 1.19
         - FTB StoneBlock 3
         - FTB Inferno
         - FTB One
