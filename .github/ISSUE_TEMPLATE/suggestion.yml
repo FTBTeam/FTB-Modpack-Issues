@@ -8,6 +8,7 @@ body:
       description: What modpack is your suggestion for?
       multiple: false
       options:
+        - FTB Legend of the Eyes
         - FTB Presents Direwolf20 1.19
         - FTB StoneBlock 3
         - FTB Inferno
