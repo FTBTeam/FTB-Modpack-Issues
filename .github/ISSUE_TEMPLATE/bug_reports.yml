@@ -8,6 +8,7 @@ body:
       description: What modpack are you having an issue with?
       multiple: false
       options:
+        - FTB Presents Integration by Parts DX
         - FTB Skies
         - FTB Legend of the Eyes
         - FTB Presents Direwolf20 1.19
