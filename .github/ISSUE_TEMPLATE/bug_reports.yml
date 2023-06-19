@@ -8,6 +8,8 @@ body:
       description: What modpack are you having an issue with?
       multiple: false
       options:
+        - "FTB Unstable 1.20: Forge"
+        - "FTB Unstable 1.20: Fabric"
         - FTB Presents Integration by Parts DX
         - FTB Skies
         - FTB Legend of the Eyes
