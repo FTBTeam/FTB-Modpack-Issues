@@ -8,6 +8,7 @@ body:
       description: What modpack are you having an issue with?
       multiple: false
       options:
+        - FTB Presents AbePack
         - "FTB Unstable 1.20: Forge"
         - "FTB Unstable 1.20: Fabric"
         - FTB University 1.19
