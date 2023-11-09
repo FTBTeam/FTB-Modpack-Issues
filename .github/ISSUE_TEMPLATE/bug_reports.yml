@@ -8,6 +8,7 @@ body:
       description: What modpack are you having an issue with?
       multiple: false
       options:
+        - FTB Genesis
         - FTB Presents Direwolf20 1.20
         - FTB Presents AbePack
         - "FTB Unstable 1.20: Forge"
