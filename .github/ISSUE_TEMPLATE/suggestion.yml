@@ -8,6 +8,7 @@ body:
       description: What modpack is your suggestion for?
       multiple: false
       options:
+        - FTB Presents F.A.M
         - FTB Genesis
         - FTB Presents Direwolf20 1.20
         - FTB Skies Expert
