@@ -106,9 +106,9 @@ body:
       label: Pack has been modified
       description: Have you modified the modpack in any way?
       options:
-        - label: Yes
+        - label: "Yes"
           required: false
-        - label: No
+        - label: "No"
           required: false
   - type: textarea
     id: logs
