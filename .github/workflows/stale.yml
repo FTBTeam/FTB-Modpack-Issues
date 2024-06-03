@@ -12,7 +12,7 @@ jobs:
         with:
           stale-issue-message: 'Message to comment on stale issues. If none provided, will not mark issues stale'
           close-issue-message: 'This issue / Pull request has been closed as there has been no recent activity after being marked as stale.'
-          days-before-stale: 30
-          days-before-close: 5
+          days-before-stale: 7
+          days-before-close: 3
           days-before-pr-close: -1
           only-issue-labels: 'state: Awaiting Reply'
