@@ -108,8 +108,6 @@ body:
       options:
         - label: "Yes"
           required: false
-        - label: "No"
-          required: false
   - type: textarea
     id: logs
     attributes:
