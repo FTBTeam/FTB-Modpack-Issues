@@ -99,6 +99,17 @@ body:
       placeholder: ex. 1.1.0
     validations:
       required: true
+  # Has the user modified the modpack
+  - type: checkboxes
+    id: modded
+    attributes:
+      label: Pack has been modified
+      description: Have you modified the modpack in any way?
+      options:
+        - label: Yes
+          required: false
+        - label: No
+          required: false
   - type: textarea
     id: logs
     attributes:
