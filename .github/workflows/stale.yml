@@ -16,3 +16,4 @@ jobs:
           days-before-close: 3
           days-before-pr-close: -1
           only-issue-labels: 'state: Awaiting Reply'
+          labels-to-remove-when-unstale: 'state: Awaiting Reply'
