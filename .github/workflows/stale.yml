@@ -4,16 +4,21 @@ on:
     - cron: '30 1 * * *'
   workflow_dispatch:
 
+permissions:
+  issues: write
+  pull-requests: write
+
 jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/stale@v9
         with:
-          stale-issue-message: 'Message to comment on stale issues. If none provided, will not mark issues stale'
-          close-issue-message: 'This issue / Pull request has been closed as there has been no recent activity after being marked as stale.'
+          stale-issue-message: 'This issue has been marked as stale. Please reply to the issue or the issue will be automatically closed in 3 days.'
+          close-issue-message: 'This issue has been closed as there has been no recent activity after being marked as stale.'
           days-before-stale: 7
           days-before-close: 3
           days-before-pr-close: -1
+          stale-issue-label: 'state: Stale'
           only-issue-labels: 'state: Awaiting Reply'
           labels-to-remove-when-unstale: 'state: Awaiting Reply'
