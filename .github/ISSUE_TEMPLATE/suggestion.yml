@@ -1,5 +1,7 @@
 name: Suggestion
 description: Suggestion
+labels:
+  - Enhancement
 body:
   - type: dropdown
     id: ftb-modpack-dropdown
