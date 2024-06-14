@@ -10,6 +10,7 @@ body:
       description: What modpack is your suggestion for?
       multiple: false
       options:
+        - FTB NeoTech
         - FTB Builders Paradise 2
         - FTB Presents F.A.M
         - FTB Genesis

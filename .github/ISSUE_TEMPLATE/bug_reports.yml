@@ -10,6 +10,7 @@ body:
       description: What modpack are you having an issue with?
       multiple: false
       options:
+        - FTB NeoTech
         - FTB Builders Paradise 2
         - FTB Presents F.A.M
         - FTB Genesis
@@ -101,14 +102,13 @@ body:
       placeholder: ex. 1.1.0
     validations:
       required: true
-  # Has the user modified the modpack
   - type: checkboxes
     id: modded
     attributes:
       label: Pack has been modified
       description: Have you modified the modpack in any way?
       options:
-        - label: "Yes"
+        - label: Yes
           required: false
   - type: textarea
     id: logs
