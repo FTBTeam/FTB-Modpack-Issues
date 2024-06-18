@@ -76,7 +76,8 @@ const runScript = async () => {
             packSection.attributes.options = ymlOptions;
         }
 
-        fs.writeFileSync(targetFile, YAML.stringify(ymlData));
+        // fs.writeFileSync(targetFile, YAML.stringify(ymlData));
+        fs.writeFileSync(targetFile, YAML.stringify(ymlData, {defaultKeyType: 'PLAIN', defaultStringType: 'QUOTE_SINGLE'}));
     }
 
     console.log("Updated file successfully")
