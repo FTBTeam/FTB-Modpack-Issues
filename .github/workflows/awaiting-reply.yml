@@ -12,3 +12,4 @@ jobs:
         with:
           debug: true
           label: "state: Awaiting Reply"
+          ignore-string: "!skip"
