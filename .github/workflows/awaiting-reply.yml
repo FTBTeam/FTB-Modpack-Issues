@@ -1,0 +1,14 @@
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Job for toggling label
+    steps:
+      - name: Toggle label
+        uses: FTBTeam/awaiting-reply-action@main
+        with:
+          debug: true
+          label: "Awaiting Reply"
