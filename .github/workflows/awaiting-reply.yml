@@ -11,4 +11,4 @@ jobs:
         uses: FTBTeam/awaiting-reply-action@main
         with:
           debug: true
-          label: "Awaiting Reply"
+          label: "state: Awaiting Reply"
