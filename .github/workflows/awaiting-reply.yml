@@ -11,4 +11,5 @@ jobs:
         uses: FTBTeam/awaiting-reply-action@main
         with:
           label: "state: Awaiting Reply"
+          remove-labels: "state: Stale"
           ignore-string: "!skip"

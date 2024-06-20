@@ -21,4 +21,4 @@ jobs:
           days-before-pr-close: -1
           stale-issue-label: 'state: Stale'
           only-issue-labels: 'state: Awaiting Reply'
-          operations-per-run: 100
+          operations-per-run: 200
