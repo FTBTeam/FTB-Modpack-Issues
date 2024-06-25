@@ -102,14 +102,17 @@ body:
       placeholder: 'ex. 1.1.0'
     validations:
       required: true
-  - type: 'checkboxes'
-    id: 'modded'
+  - type: dropdown
+    id: modded-dropdown
     attributes:
-      label: 'Pack has been modified'
+      label: 'Has the pack been modified'
       description: 'Have you modified the modpack in any way?'
       options:
-        - label: 'Yes'
-          required: false
+        - null
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
   - type: 'textarea'
     id: 'logs'
     attributes:
