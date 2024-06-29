@@ -102,8 +102,8 @@ body:
       placeholder: 'ex. 1.1.0'
     validations:
       required: true
-  - type: dropdown
-    id: modded-dropdown
+  - type: 'dropdown'
+    id: 'modded-dropdown'
     attributes:
       label: 'Has the pack been modified'
       description: 'Have you modified the modpack in any way?'
