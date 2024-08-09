@@ -3,11 +3,10 @@ description: 'Report an issue with the a modpack. ONE ISSUE PER REPORT'
 labels:
   - 'Bug'
 body:
-  - type: markdown
+  - type: 'markdown'
     attributes:
-      value: >-
-        ## If you are having more than one issue, please open separate bug
-        reports
+      value: '## If you are having more than one issue, please open separate bug
+        reports'
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'
     attributes:
@@ -15,6 +14,7 @@ body:
       description: 'What modpack are you having an issue with?'
       multiple: false
       options:
+        - 'FTB Unstable 1.21'
         - 'FTB NeoTech'
         - 'FTB Builders Paradise 2'
         - 'FTB Presents F.A.M'
