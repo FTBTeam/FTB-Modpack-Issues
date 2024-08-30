@@ -1,175 +1,180 @@
-name: Bug Report
-description: Report an issue with the a modpack. ONE ISSUE PER REPORT
+name: 'Bug Report'
+description: 'Report an issue with the a modpack. ONE ISSUE PER REPORT'
 body:
-  - type: markdown
+  - type: 'markdown'
     attributes:
-      value: >-
-        ## If you are having more than one issue, please open separate bug
-        reports
-  - type: dropdown
-    id: ftb-modpack-dropdown
+      value: '## If you are having more than one issue, please open separate bug
+        reports'
+  - type: 'dropdown'
+    id: 'ftb-modpack-dropdown'
     attributes:
-      label: Modpack
-      description: What modpack are you having an issue with?
+      label: 'Modpack'
+      description: 'What modpack are you having an issue with?'
       options:
-        - FTB Unstable 1.21
-        - FTB NeoTech
-        - FTB Builders Paradise 2
-        - FTB Presents F.A.M
-        - FTB Genesis
-        - FTB Presents Direwolf20 1.20
-        - FTB Skies Expert
-        - FTB Arcanum Institute
-        - FTB Presents AbePack
-        - FTB Interactions Remastered
+        - 'FTB Unstable 1.21'
+        - 'FTB NeoTech'
+        - 'FTB Builders Paradise 2'
+        - 'FTB Presents F.A.M'
+        - 'FTB Genesis'
+        - 'FTB Presents Direwolf20 1.20'
+        - 'FTB Skies Expert'
+        - 'FTB Arcanum Institute'
+        - 'FTB Presents AbePack'
+        - 'FTB Interactions Remastered'
         - 'FTB Unstable 1.20: Forge'
         - 'FTB Unstable 1.20: Fabric'
-        - FTB University 1.19
-        - FTB Presents Integration by Parts DX
-        - FTB Skies
-        - FTB Legend of the Eyes
-        - FTB Presents Direwolf20 1.19
-        - FTB StoneBlock 3
-        - FTB Inferno
-        - FTB One
-        - FTB Plexiglass Mountain
-        - FTB Presents Direwolf20 1.18
-        - FTB Chocolate
+        - 'FTB University 1.19'
+        - 'FTB Presents Integration by Parts DX'
+        - 'FTB Skies'
+        - 'FTB Legend of the Eyes'
+        - 'FTB Presents Direwolf20 1.19'
+        - 'FTB StoneBlock 3'
+        - 'FTB Inferno'
+        - 'FTB One'
+        - 'FTB Plexiglass Mountain'
+        - 'FTB Presents Direwolf20 1.18'
+        - 'FTB Chocolate'
         - 'FTB Ultimate: Anniversary Edition'
-        - FTB OceanBlock
-        - FTB University 1.16
-        - FTB Academy 1.16
-        - FTB Cotton
-        - FTB Endeavour
-        - FTB Presents Direwolf20 1.16
-        - FTB Mage Quest
-        - YogCraft Modpack
-        - FTB Ultimate
-        - FTB Tech World
-        - MindCrack Pack
-        - Magic World
-        - FTB Lite 2
-        - Direwolf20 1.4.7
-        - FTB Monster
-        - FTB Horizons
-        - FTB Presents Direwolf20 - 1.6.4
-        - FTB Magic World 2
-        - FTB Tech World 2
-        - Slow's Stream Pack
-        - Pax East 2014 Map
-        - FTB Lite
-        - FTB Pax Challenge Pack 2013
-        - FTB University 1.12
-        - FTB Unstable 1.16
-        - FTB Builders Paradise
-        - FTB Ultimate Reloaded
-        - FTB Revelation
-        - FTB Continuum
-        - FTB Sky Adventures
-        - FTB Pyramid Reborn 3.0
-        - FTB Presents Direwolf20 1.12
-        - FTB Unstable 1.12
-        - FTB Horizons III
-        - FTB Beyond
-        - FTB Egg Hunt
-        - FTB SkyFactory Challenges
-        - FTB Presents Skyfactory 3
-        - FTB Presents Direwolf20 1.10
-        - FTB Infinity Evolved 1.7
-        - FTB Presents Crackpack
-        - FTB Inventions
-        - FTB Infinity Evolved Skyblock
-        - FTB Presents Skyfactory 2.5
-        - FTB Vanilla+
+        - 'FTB OceanBlock'
+        - 'FTB University 1.16'
+        - 'FTB Academy 1.16'
+        - 'FTB Cotton'
+        - 'FTB Endeavour'
+        - 'FTB Presents Direwolf20 1.16'
+        - 'FTB Mage Quest'
+        - 'YogCraft Modpack'
+        - 'FTB Ultimate'
+        - 'FTB Tech World'
+        - 'MindCrack Pack'
+        - 'Magic World'
+        - 'FTB Lite 2'
+        - 'Direwolf20 1.4.7'
+        - 'FTB Monster'
+        - 'FTB Horizons'
+        - 'FTB Presents Direwolf20 - 1.6.4'
+        - 'FTB Magic World 2'
+        - 'FTB Tech World 2'
+        - 'Slow''s Stream Pack'
+        - 'Pax East 2014 Map'
+        - 'FTB Lite'
+        - 'FTB Pax Challenge Pack 2013'
+        - 'FTB University 1.12'
+        - 'FTB Unstable 1.16'
+        - 'FTB Builders Paradise'
+        - 'FTB Ultimate Reloaded'
+        - 'FTB Revelation'
+        - 'FTB Continuum'
+        - 'FTB Sky Adventures'
+        - 'FTB Pyramid Reborn 3.0'
+        - 'FTB Presents Direwolf20 1.12'
+        - 'FTB Unstable 1.12'
+        - 'FTB Horizons III'
+        - 'FTB Beyond'
+        - 'FTB Egg Hunt'
+        - 'FTB SkyFactory Challenges'
+        - 'FTB Presents Skyfactory 3'
+        - 'FTB Presents Direwolf20 1.10'
+        - 'FTB Infinity Evolved 1.7'
+        - 'FTB Presents Crackpack'
+        - 'FTB Inventions'
+        - 'FTB Infinity Evolved Skyblock'
+        - 'FTB Presents Skyfactory 2.5'
+        - 'FTB Vanilla+'
         - 'FTB Horizons: Daybreaker'
-        - FTB Departed
-        - FTB Presents Cloud 9
-        - FTB Presents Direwolf20
-        - FTB Trident
-        - FTB Resurrection
-        - FTB Lite 3
-        - Pax Prime 2015 Map
-        - FTB Presents HermitPack
-        - FTB Sky Odyssey
-        - FTB Unstable 1.14
-        - FTB Omnia
-        - FTB Interactions
-        - FTB Presents Stoneblock 2
-        - FTB Academy 1.12
-        - Other...
+        - 'FTB Departed'
+        - 'FTB Presents Cloud 9'
+        - 'FTB Presents Direwolf20'
+        - 'FTB Trident'
+        - 'FTB Resurrection'
+        - 'FTB Lite 3'
+        - 'Pax Prime 2015 Map'
+        - 'FTB Presents HermitPack'
+        - 'FTB Sky Odyssey'
+        - 'FTB Unstable 1.14'
+        - 'FTB Omnia'
+        - 'FTB Interactions'
+        - 'FTB Presents Stoneblock 2'
+        - 'FTB Academy 1.12'
+        - 'Other...'
     validations:
       required: true
-  - type: input
-    id: version
+  - type: 'input'
+    id: 'version'
     attributes:
-      label: Modpack version
-      placeholder: ex. 1.1.0
+      label: 'Modpack version'
+      placeholder: 'ex. 1.1.0'
     validations:
       required: true
-  - type: dropdown
-    id: launcher
+  - type: 'dropdown'
+    id: 'launcher'
     attributes:
-      label: Launcher
-      description: Which launcher are you using to start the modpack?
+      label: 'Launcher'
+      description: 'Which launcher are you using to start the modpack?'
       options:
         - null
-        - FTB App
-        - CurseForge
-        - Other...
+        - 'FTB App'
+        - 'CurseForge'
+        - 'Other...'
     validations:
       required: true
-  - type: dropdown
-    id: modded-dropdown
+  - type: 'dropdown'
+    id: 'modded-dropdown'
     attributes:
-      label: Has the pack been modified
-      description: Have you modified the modpack in any way?
+      label: 'Has the pack been modified'
+      description: 'Have you modified the modpack in any way?'
       options:
         - null
         - 'Yes'
         - 'No'
     validations:
       required: true
-  - type: textarea
-    id: logs
+  - type: 'textarea'
+    id: 'logs'
     attributes:
-      label: Log Files
-      description: Link(s) to any log files that may help debug your issue
-      placeholder: https://pste.ch/dotedubine
-  - type: textarea
-    id: bugdesc
+      label: 'Log Files'
+      description: 'Link(s) to any log files that may help debug your issue'
+      placeholder: 'https://pste.ch/dotedubine'
+  - type: 'textarea'
+    id: 'bugdesc'
     attributes:
-      label: Describe the bug
-      description: |
-        A clear and concise description of what the bug is
+      label: 'Describe the bug'
+      description: 'A clear and concise description of what the bug is
+
+        '
     validations:
       required: true
-  - type: textarea
-    id: reproduce
+  - type: 'textarea'
+    id: 'reproduce'
     attributes:
-      label: Steps to reproduce
-      description: Tell us how we can reproduce the issue
-      placeholder: |
-        1. Go to ...
+      label: 'Steps to reproduce'
+      description: 'Tell us how we can reproduce the issue'
+      placeholder: '1. Go to ...
+
         2. Click on ...
+
         3. Scroll down to ...
+
         4. See error
+
+        '
     validations:
       required: true
-  - type: input
-    id: expectedBehaviour
+  - type: 'input'
+    id: 'expectedBehaviour'
     attributes:
-      label: Expected behaviour
-      description: |
-        A clear and concise description of what you expected to happen.
+      label: 'Expected behaviour'
+      description: 'A clear and concise description of what you expected to happen.
+
+        '
     validations:
       required: true
-  - type: textarea
-    id: screenshots
+  - type: 'textarea'
+    id: 'screenshots'
     attributes:
-      label: Screenshots
-      description: If applicable, add screenshots to help explain your problem.
-  - type: textarea
-    id: additional
+      label: 'Screenshots'
+      description: 'If applicable, add screenshots to help explain your problem.'
+  - type: 'textarea'
+    id: 'additional'
     attributes:
-      label: Additional information
-      description: Add any other context about the problem here
+      label: 'Additional information'
+      description: 'Add any other context about the problem here'
