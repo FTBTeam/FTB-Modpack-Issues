@@ -114,6 +114,7 @@ body:
         - null
         - 'FTB App'
         - 'CurseForge'
+        - 'Server'
         - 'Other...'
     validations:
       required: true
