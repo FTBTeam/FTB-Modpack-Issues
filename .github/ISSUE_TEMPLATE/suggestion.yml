@@ -10,6 +10,7 @@ body:
       description: 'What modpack is your suggestion for?'
       multiple: false
       options:
+        - 'FTB Presents Direwolf20 1.21'
         - 'FTB Unstable 1.21'
         - 'FTB NeoTech'
         - 'FTB Builders Paradise 2'
