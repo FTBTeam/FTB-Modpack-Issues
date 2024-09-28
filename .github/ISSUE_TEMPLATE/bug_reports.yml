@@ -117,6 +117,7 @@ body:
         - null
         - 'FTB App'
         - 'CurseForge'
+        - 'Prism'
         - 'Server'
         - 'Other...'
     validations:
