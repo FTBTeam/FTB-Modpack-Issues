@@ -11,3 +11,7 @@
 <hr><br>
 
 Wanna just have a chat about our modpacks? Jump on our [Discord](https://ftb.team/discord).
+
+## Recent Updates
+
+- FTB Presents Direwolf20 1.21: Updated NeoForge requirement to version 1.21.1.70 or later.
