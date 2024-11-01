@@ -14,6 +14,7 @@ body:
       description: 'What modpack are you having an issue with?'
       options:
         - 'FTB Presents Direwolf20 1.21'
+        - 'FTB Evolution'
         - 'FTB Unstable 1.21'
         - 'FTB NeoTech'
         - 'FTB Builders Paradise 2'
