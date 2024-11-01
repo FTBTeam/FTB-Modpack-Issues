@@ -11,3 +11,11 @@
 <hr><br>
 
 Wanna just have a chat about our modpacks? Jump on our [Discord](https://ftb.team/discord).
+
+## Known Issues
+
+### FTB Evolution
+
+- **Mekanism Crusher Issue**: In FTB Evolution 1.0, the Mekanism Crusher is creating obsidian dust that can't be used in further recipes, such as making refined obsidian dust. We are aware of this issue and are working on a solution.
+
+If you encounter any other issues, please report them using the issue template provided in this repository.
