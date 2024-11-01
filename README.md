@@ -11,3 +11,7 @@
 <hr><br>
 
 Wanna just have a chat about our modpacks? Jump on our [Discord](https://ftb.team/discord).
+
+## Known Issues
+
+- FTB Presents Direwolf20 1.21: Ore processing balance issue with Mechanical Squeezer and Marid Crusher interaction. We are working on a solution to adjust the recipes for better gameplay balance.
