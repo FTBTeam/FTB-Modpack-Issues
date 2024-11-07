@@ -14,6 +14,7 @@ body:
       description: 'What modpack are you having an issue with?'
       options:
         - 'FTB Presents Direwolf20 1.21'
+        - 'FTB Presents Direwolf20 1.21'
         - 'FTB Evolution'
         - 'FTB Unstable 1.21'
         - 'FTB NeoTech'
@@ -106,6 +107,7 @@ body:
     id: 'version'
     attributes:
       label: 'Modpack version'
+      description: 'Please provide the exact version number'
       placeholder: 'ex. 1.1.0'
     validations:
       required: true
@@ -138,7 +140,8 @@ body:
     id: 'logs'
     attributes:
       label: 'Log Files'
-      description: 'Link(s) to any log files that may help debug your issue'
+      description: 'Please upload your logs to a file sharing service (e.g., pastebin, gist) and provide the link(s) here'
+      placeholder: 'https://pastebin.com/example or https://gist.github.com/example'
       placeholder: 'https://pste.ch/dotedubine'
   - type: 'textarea'
     id: 'bugdesc'
@@ -153,16 +156,12 @@ body:
     id: 'reproduce'
     attributes:
       label: 'Steps to reproduce'
+      description: 'Tell us how we can reproduce the issue. Be as detailed as possible.'
+      placeholder: '1. Load the modpack version X.X.X
+2. Create a new world or load an existing one
+3. Perform the following actions: ...
+4. Observe the crash or issue'
       description: 'Tell us how we can reproduce the issue'
-      placeholder: '1. Go to ...
-
-        2. Click on ...
-
-        3. Scroll down to ...
-
-        4. See error
-
-        '
     validations:
       required: true
   - type: 'input'
