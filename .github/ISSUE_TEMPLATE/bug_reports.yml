@@ -15,6 +15,8 @@ body:
       options:
         - 'FTB Presents Direwolf20 1.21'
         - 'FTB Evolution'
+        - 'FTB Evolution: Reborn'
+        - 'FTB Evolution: Legacy'
         - 'FTB Unstable 1.21'
         - 'FTB NeoTech'
         - 'FTB Builders Paradise 2'
@@ -183,4 +185,22 @@ body:
     id: 'additional'
     attributes:
       label: 'Additional information'
+  - type: 'dropdown'
+    id: 'crash-type'
+    attributes:
+      label: 'Crash Type'
+      description: 'If applicable, select the type of crash you experienced'
+      options:
+        - 'Not applicable'
+        - 'Client crash'
+        - 'Server crash'
+        - 'Both client and server crash'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'crash-details'
+    attributes:
+      label: 'Crash Details'
+      description: 'If you experienced a crash, please provide any relevant details from the crash log'
+      placeholder: 'Paste relevant parts of the crash log here'
       description: 'Add any other context about the problem here'
