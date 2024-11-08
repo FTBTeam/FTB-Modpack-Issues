@@ -16,6 +16,9 @@ body:
         - 'FTB Presents Direwolf20 1.21'
         - 'FTB Evolution'
         - 'FTB Unstable 1.21'
+        - 'FTB Presents Direwolf20 1.21'
+        - 'FTB Evolution'
+        - 'FTB Unstable 1.21'
         - 'FTB NeoTech'
         - 'FTB Builders Paradise 2'
         - 'FTB Presents F.A.M'
@@ -109,6 +112,27 @@ body:
       placeholder: 'ex. 1.1.0'
     validations:
       required: true
+  - type: 'dropdown'
+    id: 'launcher'
+    attributes:
+      label: 'Launcher'
+      description: 'Which launcher are you using to start the modpack?'
+      options:
+        - null
+        - 'FTB App'
+        - 'CurseForge'
+        - 'Prism'
+        - 'Server'
+        - 'Other...'
+    validations:
+      required: true
+  - type: 'input'
+    id: 'specific-mod'
+    attributes:
+      label: 'Specific Mod (if applicable)'
+      description: 'If your issue is related to a specific mod, please mention it here (e.g., Modern Pipes)'
+      placeholder: 'ex. Modern Pipes'
+  - type: 'dropdown'
   - type: 'dropdown'
     id: 'launcher'
     attributes:
