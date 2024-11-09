@@ -14,7 +14,9 @@ body:
       description: 'What modpack are you having an issue with?'
       options:
         - 'FTB Presents Direwolf20 1.21'
-        - 'FTB Evolution'
+         - 'FTB Evolution 1.2.0'
+         - 'FTB Evolution 1.1.0'
+         - 'FTB Evolution 1.0.0'
         - 'FTB Unstable 1.21'
         - 'FTB NeoTech'
         - 'FTB Builders Paradise 2'
@@ -149,6 +151,17 @@ body:
         '
     validations:
       required: true
+   - type: 'dropdown'
+     id: 'ftb-evolution-specific'
+     attributes:
+       label: 'FTB Evolution Specific Issue'
+       description: 'If this is an FTB Evolution issue, please specify the component'
+       options:
+         - 'Not applicable'
+         - 'Exchanging Gadget'
+         - 'Other mod-specific issue'
+     validations:
+       required: true
   - type: 'textarea'
     id: 'reproduce'
     attributes:
