@@ -13,6 +13,7 @@ body:
       label: 'Modpack'
       description: 'What modpack are you having an issue with?'
       options:
+         - 'FTB Presents Direwolf20 1.21'
         - 'FTB Presents Direwolf20 1.21'
         - 'FTB Evolution'
         - 'FTB Unstable 1.21'
@@ -106,6 +107,7 @@ body:
     id: 'version'
     attributes:
       label: 'Modpack version'
+       placeholder: 'ex. 1.1.0 (or "All versions" if it impacts all)'
       placeholder: 'ex. 1.1.0'
     validations:
       required: true
