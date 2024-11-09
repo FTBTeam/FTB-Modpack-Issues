@@ -182,5 +182,16 @@ body:
   - type: 'textarea'
     id: 'additional'
     attributes:
+       label: 'Additional information'
       label: 'Additional information'
+       description: 'Add any other context about the problem here'
+   - type: 'textarea'
+     id: 'quest-details'
+     attributes:
+       label: 'Quest Details'
+       description: 'If this is a quest-related issue, please provide the quest name, chapter, and any specific details about the quest requirements or description that seem incorrect or confusing.'
+       placeholder: 'Quest Name: Evolutionary Matter
+Chapter: Bottom row of pyramid, 5th over
+Issue: Quest icon shows a glowing purple stone, but the requirements don't match the visual representation.'
+   - type: 'textarea'
       description: 'Add any other context about the problem here'
