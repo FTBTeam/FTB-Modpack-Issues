@@ -34,14 +34,14 @@ const runScript = async () => {
     }
 
     // Load all the api data
-    const data = await fetch("https://api.modpacks.ch/public/modpack/popular/installs/FTB/all");
+    const data = await fetch("https://api.feed-the-beast.com/v1/modpacks/public/modpack/popular/installs/FTB/all");
     const packData = await data.json();
 
     const apiModpacks = await Promise.all(
         packData.packs.map(async (packId) => {
             try {
                 console.log(`Fetching modpack with the id of ${packId}`)
-                const modpackReq = await fetch(`https://api.modpacks.ch/public/modpack/${packId}`);
+                const modpackReq = await fetch(`https://api.feed-the-beast.com/v1/modpacks/public/modpack/${packId}`);
                 const data = await modpackReq.json();
                 console.log(`Successfully fetched modpack with the id of ${packId}`)
                 if (data.status === "success") {
