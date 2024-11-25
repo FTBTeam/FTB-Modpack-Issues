@@ -119,6 +119,7 @@ body:
         - 'FTB App'
         - 'CurseForge'
         - 'Prism'
+        - 'ATLauncher'
         - 'Server'
         - 'Other...'
     validations:
