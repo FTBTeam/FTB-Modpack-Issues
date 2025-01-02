@@ -128,7 +128,7 @@ body:
     id: 'modded-dropdown'
     attributes:
       label: 'Has the pack been modified'
-      description: 'Have you modified the modpack in any way?'
+      description: 'Have you modified the modpack in any way? This includes changing configs, adding mods and/or updating any mods'
       options:
         - null
         - 'Yes'
