@@ -12,6 +12,6 @@ jobs:
         with:
           awaiting-label: "state: Awaiting Reply"
           replied-label: "@Replied"
-          ignore-labels: "@On Hold,state: Mod Update Available,state: Confirmed,state: Awaiting Mod Update,@Reported to Mod Dev"
+          ignore-labels: "@On Hold,state: Mod Update Available,state: Awaiting Mod Update,@Reported to Mod Dev"
           remove-labels: "state: Stale"
           ignore-string: "!skip"
