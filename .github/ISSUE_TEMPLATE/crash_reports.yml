@@ -8,14 +8,16 @@ body:
         Before reporting this crash, have you tried the following?
         - Updating to the latest version of the modpack
         - Removed any additional mods you may have installed
-  - type: checkboxes
-    id: fixesCheckbox
+  - type: 'dropdown'
+    id: 'triedFixes'
     attributes:
-      label: Suggested fixes
-      description: Have you tried the suggested fixes above?
+      label: 'Suggested fixes'
+      description: 'Have you tried the suggested fixes above?'
       options:
-        - label: 'Yes'
-          required: true
+        - null
+        - 'Yes'
+    validations:
+      required: true
   - type: dropdown
     id: ftb-modpack-dropdown
     attributes:
