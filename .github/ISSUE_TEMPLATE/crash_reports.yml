@@ -1,0 +1,69 @@
+name: Crash Report
+description: Report a crash
+title: '[Crash]: '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before reporting this crash, have you tried the following?
+        - Updating to the latest version of the modpack
+        - Removed any additional mods you may have installed
+  - type: checkboxes
+    id: fixesCheckbox
+    attributes:
+      label: Suggested fixes
+      description: Have you tried the suggested fixes above?
+      options:
+        - label: 'Yes'
+          required: true
+  - type: dropdown
+    id: ftb-modpack-dropdown
+    attributes:
+      label: Modpack
+      description: Which modpack are you having the crash on?
+      options:
+        - 'Other...'
+    validations:
+      required: true
+  - type: input
+    id: modpackVersion
+    attributes:
+      label: Modpack Version
+      description: Which modpack version are you having the issue on?
+      placeholder: ex. 1.7.0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe what happened
+      description: >-
+        Describe what you were doing in the moments leading up to the crash, be
+        as detailed as possible and include steps on how to reproduce the crash.
+    validations:
+      required: true
+  - type: input
+    id: crashreport
+    attributes:
+      label: Crash Report
+      description: >-
+        Upload your crash report to https://gist.github.com/ and put the link in
+        here, [Finding the crash
+        report](https://docs.feed-the-beast.com/docs/app/Instances/instance-logs#locating-crashlogs)
+      placeholder: https://gist.github.com/
+    validations:
+      required: true
+  - type: input
+    id: debuglog
+    attributes:
+      label: Debug Log
+      description: >-
+        Upload your debug.log to https://gist.github.com/ and put the link in
+        here, [Finding the crash
+        report](https://docs.feed-the-beast.com/docs/app/Instances/instance-logs)
+      placeholder: https://gist.github.com/
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)
