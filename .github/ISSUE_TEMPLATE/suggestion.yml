@@ -2,6 +2,7 @@ name: 'Suggestion'
 description: 'Suggestion'
 labels:
   - 'Enhancement'
+type: 'Feature'
 body:
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'

@@ -2,11 +2,20 @@ name: 'Bug Report'
 description: 'Report an issue with the a modpack. ONE ISSUE PER REPORT'
 labels:
   - 'Bug'
+type: 'Bug'
 body:
   - type: 'markdown'
     attributes:
-      value: '## If you are having more than one issue, please open separate bug
-        reports'
+      value: >-
+        ### Before filling out this report, please read the following
+
+        - Only 1 issue per bug report, if you need to report multiple issues,
+        open multiple bug reports
+
+        - Checked if the issue still exists on the latest version of the modpack
+
+        - If you have modified the pack, check if the issue exists on a
+        clean/fresh install of the modpack
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'
     attributes:
