@@ -11,3 +11,7 @@
 <hr><br>
 
 Wanna just have a chat about our modpacks? Jump on our [Discord](https://ftb.team/discord).
+
+## Looking for a Modded Minecraft Server? `Ad`
+
+[![Promotion](https://cdn.feed-the-beast.com/assets/promo/ftb-bh-promo-large.png)](https://bisecthosting.com/ftb)
