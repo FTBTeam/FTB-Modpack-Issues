@@ -6,22 +6,23 @@ type: 'Bug'
 body:
   - type: 'markdown'
     attributes:
-      value: >-
-        ### Before filling out this report, please read the following
+      value: '### Before filling out this report, please read the following
 
-        - Only 1 issue per bug report, if you need to report multiple issues,
-        open multiple bug reports
+        - Only 1 issue per bug report, if you need to report multiple
+        issues, open multiple bug reports
 
-        - Checked if the issue still exists on the latest version of the modpack
+        - Checked if the issue still exists on the latest version of the
+        modpack
 
         - If you have modified the pack, check if the issue exists on a
-        clean/fresh install of the modpack
+        clean/fresh install of the modpack'
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'
     attributes:
       label: 'Modpack'
       description: 'What modpack are you having an issue with?'
       options:
+        - 'FTB OceanBlock 2'
         - 'FTB Presents Direwolf20 1.21'
         - 'FTB Evolution'
         - 'FTB Unstable 1.21'
@@ -195,6 +196,5 @@ body:
     attributes:
       label: 'Additional information'
       description: 'Add any other context about the problem here'
-      placeholder: >-
-        Any other information that may help debug the issue. If you have
-        modified the modpack please let us know what was changed here
+      placeholder: 'Any other information that may help debug the issue. If you have
+        modified the modpack please let us know what was changed here'
