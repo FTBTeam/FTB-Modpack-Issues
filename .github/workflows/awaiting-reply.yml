@@ -11,7 +11,7 @@ jobs:
         uses: FTBTeam/awaiting-reply-action@main
         with:
           awaiting-label: "state: Awaiting Reply"
-          replied-label: "@Replied"
-          ignore-labels: "@On Hold,state: Mod Update Available,state: Awaiting Mod Update,@Reported to Mod Dev"
+          replied-label: "Replied"
+          ignore-labels: "state: Mod Update Available,state: Awaiting Mod Update,Reported to Mod Dev"
           remove-labels: "state: Stale"
           ignore-string: "!skip"
