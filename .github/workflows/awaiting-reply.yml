@@ -1,17 +1,17 @@
-on:
-  issue_comment:
-    types: [created]
+# on:
+#   issue_comment:
+#     types: [created]
 
-jobs:
-  hello_world_job:
-    runs-on: ubuntu-latest
-    name: Job for toggling label
-    steps:
-      - name: Toggle label
-        uses: FTBTeam/awaiting-reply-action@main
-        with:
-          awaiting-label: "state: Awaiting Reply"
-          replied-label: "Replied"
-          ignore-labels: "state: Mod Update Available,state: Awaiting Mod Update,Reported to Mod Dev"
-          remove-labels: "state: Stale"
-          ignore-string: "!skip"
+# jobs:
+#   hello_world_job:
+#     runs-on: ubuntu-latest
+#     name: Job for toggling label
+#     steps:
+#       - name: Toggle label
+#         uses: FTBTeam/awaiting-reply-action@main
+#         with:
+#           awaiting-label: "state: Awaiting Reply"
+#           replied-label: "Replied"
+#           ignore-labels: "state: Mod Update Available,state: Awaiting Mod Update,Reported to Mod Dev"
+#           remove-labels: "state: Stale"
+#           ignore-string: "!skip"
