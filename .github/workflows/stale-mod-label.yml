@@ -1,0 +1,25 @@
+name: 'Close stale issues (Mod issue label)'
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          stale-issue-message: 'This issue has been marked as stale. Please reply to the issue or the issue will be automatically closed in 3 days.'
+          close-issue-message: 'This issue has been closed as there has been no recent activity after being marked as stale.'
+          days-before-stale: 29
+          days-before-close: 1
+          days-before-pr-close: -1
+          stale-issue-label: 'state: Stale'
+          only-issue-labels: 'state: Reported to Mod Dev, state: Awaiting Mod Update'
+          exempt-issue-labels: 'state: Mod Update Available'
+          operations-per-run: 100
