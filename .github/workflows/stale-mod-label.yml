@@ -17,9 +17,10 @@ jobs:
           stale-issue-message: '@Gaz492 @Saereth Please check if the mod has recieved an update'
           close-issue-message: 'This issue has been closed as the mod author has not released an update that fixes this issue'
           days-before-stale: 29
-          days-before-close: 1
+          days-before-close: 0
           days-before-pr-close: -1
           stale-issue-label: 'state: Stale'
-          only-issue-labels: 'state: Reported to Mod Dev, state: Awaiting Mod Update'
+          any-of-issue-labels: 'state: Reported to Mod Dev, state: Awaiting Mod Update'
           exempt-issue-labels: 'state: Mod Update Available'
           operations-per-run: 100
+          debug-only: true
