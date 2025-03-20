@@ -17,7 +17,7 @@ jobs:
           stale-issue-message: '@Gaz492 @Saereth Please check if the mod has recieved an update, if there has been no mod updates this issue will close in 24 hours'
           close-issue-message: 'Closing issue as there has been no activity'
           days-before-stale: 59
-          days-before-close: 0
+          days-before-close: 1
           days-before-pr-close: -1
           stale-issue-label: 'state: Stale'
           any-of-issue-labels: 'state: Reported to Mod Dev, state: Awaiting Mod Update'
