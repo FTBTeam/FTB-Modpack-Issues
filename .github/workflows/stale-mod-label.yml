@@ -23,4 +23,4 @@ jobs:
           any-of-issue-labels: 'state: Reported to Mod Dev, state: Awaiting Mod Update'
           exempt-issue-labels: 'state: Mod Update Available,In Progress'
           operations-per-run: 200
-          ignore-issue-updates: true
+          ignore-issue-updates: false
