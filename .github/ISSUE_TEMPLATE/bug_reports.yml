@@ -22,6 +22,7 @@ body:
       label: 'Modpack'
       description: 'What modpack are you having an issue with?'
       options:
+        - 'FTB Skies 2'
         - 'FTB OceanBlock 2'
         - 'FTB Presents Direwolf20 1.21'
         - 'FTB Evolution'

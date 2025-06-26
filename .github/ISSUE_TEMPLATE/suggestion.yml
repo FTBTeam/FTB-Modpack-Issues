@@ -11,6 +11,7 @@ body:
       description: 'What modpack is your suggestion for?'
       multiple: false
       options:
+        - 'FTB Skies 2'
         - 'FTB OceanBlock 2'
         - 'FTB Presents Direwolf20 1.21'
         - 'FTB Evolution'
