@@ -6,8 +6,8 @@ body:
       value: '### Before filling out this report, please read the following
 
         - If you are having issues with a specific mod, we recommend
-        reporting the issue directly to the mod author - Only 1 issue per bug
-        report, if you need to report multiple issues, open multiple bug reports
+        reporting the issue directly to the mod author
+        - Only 1 issue per bug report, if you need to report multiple issues, open multiple bug reports
         - Checked if the issue still exists on the latest version of the modpack
         - If you have modified the pack, check if the issue exists on a
         clean/fresh install of the modpack
