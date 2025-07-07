@@ -130,7 +130,7 @@ body:
       description: 'Which launcher are you using to start the modpack?, If other
         please mention the launcher you use in additional information'
       options:
-        - null
+        - 'Please select an option...'
         - 'FTB App'
         - 'CurseForge'
         - 'Prism'
@@ -186,7 +186,7 @@ body:
       description: 'Have you modified the modpack in any way? This includes changing
         configs, adding mods and/or updating any mods'
       options:
-        - null
+        - 'Please select an option...'
         - 'Yes'
         - 'No'
     validations:
