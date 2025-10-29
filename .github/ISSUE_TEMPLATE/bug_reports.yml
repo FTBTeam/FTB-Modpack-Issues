@@ -10,11 +10,13 @@ body:
 
         - If you are having issues with a specific mod, we recommend
         reporting the issue directly to the mod author
-        
-        - Only 1 issue per bug report, if you need to report multiple issues, open multiple bug reports
-        
-        - Checked if the issue still exists on the latest version of the modpack
-        
+
+        - Only 1 issue per bug report, if you need to report multiple
+        issues, open multiple bug reports
+
+        - Checked if the issue still exists on the latest version of the
+        modpack
+
         - If you have modified the pack, check if the issue exists on a
         clean/fresh install of the modpack
 
@@ -169,8 +171,8 @@ body:
       label: 'Log Files'
       description: 'Link(s) to any log files that may help debug your issue'
       placeholder: 'Please upload your logs to a pastebin service such as
-        [Gist](https://gist.github.com/), [mclo.gs](https://mclo.gs/) and
-        link them here. If you are not sure which logs to upload, please upload the
+        [Gist](https://gist.github.com/), [mclo.gs](https://mclo.gs/) and link
+        them here. If you are not sure which logs to upload, please upload the
         debug.log file from the modpack folder.'
   - type: 'input'
     id: 'expectedBehaviour'
