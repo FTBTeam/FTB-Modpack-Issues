@@ -22,4 +22,6 @@ jobs:
           days-before-pr-close: -1
           stale-issue-label: 'state: Stale'
           only-issue-labels: 'state: Awaiting Reply'
+          exempt-issue-labels: 'prio: Low, prio: Medium, prio: High'
           operations-per-run: 100
+          exempt-all-issue-assignees: true
