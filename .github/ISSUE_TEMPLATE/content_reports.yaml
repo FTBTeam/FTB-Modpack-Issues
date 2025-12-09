@@ -1,0 +1,33 @@
+name: Questing/Content Issues
+description: >-
+  Issues related to quests or modpack specific content (broken quest
+  images/typos/wrong descriptions/structure issues ect)
+labels:
+  - Bug
+body:
+  - type: dropdown
+    id: ftb-modpack-dropdown
+    attributes:
+      label: Modpack
+      description: What modpack are you having an issue with?
+      options:
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version
+      description: The modpack version can often be found on the launcher you are using
+      placeholder: e.g. 1.1.5
+    validations:
+      required: true
+  - type: textarea
+    id: bug-desc
+    attributes:
+      label: Describe the issue
+      description: >-
+        A clear and concise description of what the bug is along with any
+        screenshots that can help explain the issue
+    validations:
+      required: true

@@ -1,0 +1,42 @@
+name: Other Modpack Issues
+description: If your issue doesnt fit into the other issue templates, use this
+labels:
+  - Bug
+body:
+  - type: dropdown
+    id: ftb-modpack-dropdown
+    attributes:
+      label: Modpack
+      description: What modpack are you having an issue with?
+      options:
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version
+      description: The modpack version can often be found on the launcher you are using
+      placeholder: e.g. 1.1.5
+    validations:
+      required: true
+  - type: textarea
+    id: bug-desc
+    attributes:
+      label: Describe the issue
+      description: >-
+        A clear and concise description of what the bug is along with any
+        screenshots that can help explain the issue
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: >-
+        Please upload your logs to a pastebin service such as
+        [Gist](https://gist.github.com/), [mclo.gs](https://mclo.gs/) and link
+        them here. If you are not sure which logs to upload, please upload the
+        debug.log file from the modpack folder.
+    validations:
+      required: true
