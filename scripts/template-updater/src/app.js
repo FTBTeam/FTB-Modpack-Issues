@@ -19,7 +19,7 @@ const runScript = async () => {
     }
 
     const targetFiles = fs.readdirSync(githubPath)
-        .filter(e => e.endsWith(".yml") && e !== "config.yml")
+        .filter(e => (e.endsWith(".yml") || e.endsWith(".yaml")) && e !== "config.yml")
         .map(e => path.join(githubPath, e));
 
     // Test files
