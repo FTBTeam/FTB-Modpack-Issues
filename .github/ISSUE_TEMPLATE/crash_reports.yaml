@@ -1,21 +1,20 @@
-name: Crash Report
-description: Use this form if you are running into any crashes or disconnects
+name: 'Crash Report'
+description: 'Use this form if you are running into any crashes or disconnects'
 labels:
-  - Bug
+  - 'Bug'
   - 'type: Crash/Disconnect'
 body:
-  - type: markdown
+  - type: 'markdown'
     attributes:
-      value: >-
-        ## Before continuing, please make sure you have tried the following:
+      value: '## Before continuing, please make sure you have tried the following:
 
 
         - Updating the pack to the latest available version
 
-        - If you have added/removed any mods, either undo the changes or install
-        a second unmodified copy of the modpack
-  - type: dropdown
-    id: triedSolutions
+        - If you have added/removed any mods, either undo the changes or
+        install a second unmodified copy of the modpack'
+  - type: 'dropdown'
+    id: 'triedSolutions'
     attributes:
       label: 'Have you tried the solutions mentioned above? '
       options:
@@ -23,50 +22,136 @@ body:
         - 'Yes'
     validations:
       required: true
-  - type: dropdown
-    id: ftb-modpack-dropdown
+  - type: 'dropdown'
+    id: 'ftb-modpack-dropdown'
     attributes:
-      label: Modpack
-      description: What modpack are you having an issue with?
+      label: 'Modpack'
+      description: 'What modpack are you having an issue with?'
       options:
-        - Other
+        - 'FTB StoneBlock 4'
+        - 'FTB Skies 2'
+        - 'FTB OceanBlock 2'
+        - 'FTB Presents Direwolf20 1.21'
+        - 'FTB Evolution'
+        - 'FTB Unstable 1.21'
+        - 'FTB NeoTech'
+        - 'FTB Builders Paradise 2'
+        - 'FTB Presents F.A.M'
+        - 'FTB Genesis'
+        - 'FTB Presents Direwolf20 1.20'
+        - 'FTB Skies Expert'
+        - 'FTB Arcanum Institute'
+        - 'FTB Presents AbePack'
+        - 'FTB Interactions Remastered'
+        - 'FTB Unstable 1.20: Forge'
+        - 'FTB Unstable 1.20: Fabric'
+        - 'FTB University 1.19'
+        - 'FTB Presents Integration by Parts DX'
+        - 'FTB Skies'
+        - 'FTB Legend of the Eyes'
+        - 'FTB Presents Direwolf20 1.19'
+        - 'FTB StoneBlock 3'
+        - 'FTB Inferno'
+        - 'FTB One'
+        - 'FTB Plexiglass Mountain'
+        - 'FTB Presents Direwolf20 1.18'
+        - 'FTB Chocolate'
+        - 'FTB Ultimate: Anniversary Edition'
+        - 'FTB OceanBlock'
+        - 'FTB University 1.16'
+        - 'FTB Academy 1.16'
+        - 'FTB Cotton'
+        - 'FTB Endeavour'
+        - 'FTB Presents Direwolf20 1.16'
+        - 'FTB Mage Quest'
+        - 'YogCraft Modpack'
+        - 'FTB Ultimate'
+        - 'FTB Tech World'
+        - 'MindCrack Pack'
+        - 'Magic World'
+        - 'FTB Lite 2'
+        - 'Direwolf20 1.4.7'
+        - 'FTB Monster'
+        - 'FTB Horizons'
+        - 'FTB Presents Direwolf20 - 1.6.4'
+        - 'FTB Magic World 2'
+        - 'FTB Tech World 2'
+        - 'Slow''s Stream Pack'
+        - 'Pax East 2014 Map'
+        - 'FTB Lite'
+        - 'FTB Pax Challenge Pack 2013'
+        - 'FTB University 1.12'
+        - 'FTB Unstable 1.16'
+        - 'FTB Builders Paradise'
+        - 'FTB Ultimate Reloaded'
+        - 'FTB Revelation'
+        - 'FTB Continuum'
+        - 'FTB Sky Adventures'
+        - 'FTB Pyramid Reborn 3.0'
+        - 'FTB Presents Direwolf20 1.12'
+        - 'FTB Unstable 1.12'
+        - 'FTB Horizons III'
+        - 'FTB Beyond'
+        - 'FTB Egg Hunt'
+        - 'FTB SkyFactory Challenges'
+        - 'FTB Presents Skyfactory 3'
+        - 'FTB Presents Direwolf20 1.10'
+        - 'FTB Infinity Evolved 1.7'
+        - 'FTB Presents Crackpack'
+        - 'FTB Inventions'
+        - 'FTB Infinity Evolved Skyblock'
+        - 'FTB Presents Skyfactory 2.5'
+        - 'FTB Vanilla+'
+        - 'FTB Horizons: Daybreaker'
+        - 'FTB Departed'
+        - 'FTB Presents Cloud 9'
+        - 'FTB Presents Direwolf20'
+        - 'FTB Trident'
+        - 'FTB Resurrection'
+        - 'FTB Lite 3'
+        - 'Pax Prime 2015 Map'
+        - 'FTB Presents HermitPack'
+        - 'FTB Sky Odyssey'
+        - 'FTB Unstable 1.14'
+        - 'FTB Omnia'
+        - 'FTB Interactions'
+        - 'FTB Presents Stoneblock 2'
+        - 'FTB Academy 1.12'
+        - 'Other...'
     validations:
       required: true
-  - type: input
-    id: modpack-version
+  - type: 'input'
+    id: 'modpack-version'
     attributes:
-      label: Modpack Version
-      description: The modpack version can often be found on the launcher you are using
-      placeholder: e.g. 1.1.5
+      label: 'Modpack Version'
+      description: 'The modpack version can often be found on the launcher you are using'
+      placeholder: 'e.g. 1.1.5'
     validations:
       required: true
-  - type: textarea
-    id: bug-desc
+  - type: 'textarea'
+    id: 'bug-desc'
     attributes:
-      label: Describe what happened
-      description: >-
-        A clear and concise description of what the bug is along with any
-        screenshots that can help explain the issue
+      label: 'Describe what happened'
+      description: 'A clear and concise description of what the bug is along with any
+        screenshots that can help explain the issue'
     validations:
       required: true
-  - type: textarea
-    id: logs
+  - type: 'textarea'
+    id: 'logs'
     attributes:
-      label: Link to logs
-      description: >-
-        Please upload your logs to a pastebin service such as
+      label: 'Link to logs'
+      description: 'Please upload your logs to a pastebin service such as
         [Gist](https://gist.github.com/), [mclo.gs](https://mclo.gs/) and link
         them here. If you are not sure which logs to upload, please upload the
-        debug.log file from the modpack folder.
+        debug.log file from the modpack folder.'
     validations:
       required: true
-  - type: textarea
-    id: reproduce
+  - type: 'textarea'
+    id: 'reproduce'
     attributes:
-      label: Steps to reproduce
-      description: >-
-        If you are able to reproduce the issue, please provide a step by step
-        guide on how we can try and reproduce the issue.
+      label: 'Steps to reproduce'
+      description: 'If you are able to reproduce the issue, please provide a step by
+        step guide on how we can try and reproduce the issue.'
       placeholder: '1. Go to ...
 
         2. Click on ...
@@ -74,13 +159,13 @@ body:
         3. Scroll down to ...
 
         4. See error'
-  - type: textarea
-    id: additional-info
+  - type: 'textarea'
+    id: 'additional-info'
     attributes:
-      label: Additional information
-      description: >-
-        Any other information that may help debug the issue. If you have        
-        modified the modpack please let us know what was changed here
-      placeholder: >-
-        Any other information that may help debug the issue. If you have        
-        modified the modpack please let us know what was changed here
+      label: 'Additional information'
+      description: 'Any other information that may help debug the issue. If you
+        have         modified the modpack please let us know what was changed
+        here'
+      placeholder: 'Any other information that may help debug the issue. If you
+        have         modified the modpack please let us know what was changed
+        here'
