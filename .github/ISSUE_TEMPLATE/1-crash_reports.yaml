@@ -1,5 +1,6 @@
 name: 'Crash Report'
 description: 'Use this form if you are running into any crashes or disconnects'
+title: '[Crash]: '
 labels:
   - 'Bug'
   - 'type: Crash/Disconnect'

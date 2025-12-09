@@ -118,3 +118,13 @@ body:
         screenshots that can help explain the issue'
     validations:
       required: true
+  - type: 'textarea'
+    id: 'logs'
+    attributes:
+      label: 'Link to logs'
+      description: 'Please upload your logs to a pastebin service such as
+        [Gist](https://gist.github.com/), [mclo.gs](https://mclo.gs/) and link
+        them here. If you are not sure which logs to upload, please upload the
+        debug.log file from the modpack folder.'
+    validations:
+      required: true
