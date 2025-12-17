@@ -4,6 +4,7 @@ title: '[Crash]: '
 labels:
   - 'Bug'
   - 'type: Crash/Disconnect'
+type: 'Bug'
 body:
   - type: 'markdown'
     attributes:

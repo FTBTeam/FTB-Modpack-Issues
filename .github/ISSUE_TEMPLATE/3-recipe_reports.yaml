@@ -4,6 +4,7 @@ title: '[Recipe]: '
 labels:
   - 'Bug'
   - 'type: Recipe'
+type: 'Bug'
 assignees:
   - 'DinnerBeef'
   - 'ArtpokeBr'
