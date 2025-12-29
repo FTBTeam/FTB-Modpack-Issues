@@ -4,6 +4,23 @@ labels:
   - 'Bug'
 type: 'Bug'
 body:
+  - type: 'markdown'
+    attributes:
+      value: '## Please Read the following
+
+        - If you are having issues with a specific mod, we recommend
+        reporting the issue directly to the mod author
+
+        - Only 1 issue per bug report, if you need to report multiple
+        issues, open multiple bug reports
+        
+        ## Common solutions
+
+        - Updating the pack to the latest available version
+
+        - If you have added/removed any mods, either undo the changes or
+        install a second unmodified copy of the modpack and test if the issue still happens'
+        
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'
     attributes:
@@ -102,6 +119,7 @@ body:
         - 'Other...'
     validations:
       required: true
+  
   - type: 'input'
     id: 'modpack-version'
     attributes:
@@ -110,6 +128,7 @@ body:
       placeholder: 'e.g. 1.1.5'
     validations:
       required: true
+  
   - type: 'textarea'
     id: 'bug-desc'
     attributes:
@@ -118,6 +137,7 @@ body:
         screenshots that can help explain the issue'
     validations:
       required: true
+  
   - type: 'textarea'
     id: 'logs'
     attributes:
@@ -126,5 +146,18 @@ body:
         [Gist](https://gist.github.com/), [mclo.gs](https://mclo.gs/) and link
         them here. If you are not sure which logs to upload, please upload the
         debug.log file from the modpack folder.'
+    validations:
+      required: true
+  
+  - type: 'dropdown'
+    id: 'modded-dropdown'
+    attributes:
+      label: 'Has the pack been modified'
+      description: 'Have you modified the modpack in any way? This includes changing
+        configs, adding mods and/or updating any mods'
+      options:
+        - 'Please select an option...'
+        - 'Yes'
+        - 'No'
     validations:
       required: true
