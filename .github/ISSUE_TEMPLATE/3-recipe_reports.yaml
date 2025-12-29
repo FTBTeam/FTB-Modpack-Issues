@@ -1,6 +1,5 @@
 name: 'Recipe Issues'
 description: 'Report any recipe issues using this form'
-title: '[Recipe]: '
 labels:
   - 'Bug'
   - 'type: Recipe'
