@@ -137,3 +137,11 @@ body:
         - 'No'
     validations:
       required: true
+  
+  - type: 'textarea'
+    id: 'additional'
+    attributes:
+      label: 'Additional information'
+      description: 'Any other information that can help with debugging the issue'
+      placeholder: 'Any other information that may help debug the issue. If you have
+        modified the modpack please let us know what was changed here'

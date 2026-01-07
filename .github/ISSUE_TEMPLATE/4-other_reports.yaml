@@ -18,8 +18,18 @@ body:
 
         - Updating the pack to the latest available version
 
-        - If you have added/removed any mods, either undo the changes or
+        - If you have added/updated/removed any mods, either undo the changes or
         install a second unmodified copy of the modpack and test if the issue still happens'
+
+  - type: 'dropdown'
+    id: 'triedSolutions'
+    attributes:
+      label: 'Have you tried the solutions mentioned above? '
+      options:
+        - 'No'
+        - 'Yes'
+    validations:
+      required: true
         
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'
@@ -161,3 +171,11 @@ body:
         - 'No'
     validations:
       required: true
+
+  - type: 'textarea'
+    id: 'additional'
+    attributes:
+      label: 'Additional information'
+      description: 'Any other information that can help with debugging the issue'
+      placeholder: 'Any other information that may help debug the issue. If you have
+        modified the modpack please let us know what was changed here'
