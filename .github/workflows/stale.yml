@@ -27,4 +27,4 @@ jobs:
           only-issue-labels: 'state: Awaiting Reply'
           exempt-issue-labels: 'prio: Low, prio: Medium, prio: High'
           operations-per-run: 100
-          exempt-all-issue-assignees: true
+          # exempt-all-issue-assignees: true
