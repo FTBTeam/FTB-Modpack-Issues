@@ -10,7 +10,7 @@
   "author": "FTB Team",
   "license": "UNLICENSED",
   "dependencies": {
-    "node-fetch": "^3.3.0",
-    "yaml": "^2.2.2"
+    "node-fetch": "^3.3.2",
+    "yaml": "^2.8.3"
   }
 }

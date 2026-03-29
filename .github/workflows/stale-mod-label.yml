@@ -12,10 +12,10 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v9
+      - uses: actions/stale@v10
         with:
           stale-issue-message: '@Gaz492 @Saereth Please check if the mod has recieved an update, if there has been no mod updates this issue will close in 24 hours'
-          close-issue-message: 'Closing issue as there has been no activity'
+          close-issue-message: 'Closing issue as there has been no updates to the mod'
           days-before-stale: 59
           days-before-close: 1
           days-before-pr-close: -1
