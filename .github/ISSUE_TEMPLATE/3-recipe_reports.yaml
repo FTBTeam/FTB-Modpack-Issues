@@ -1,7 +1,7 @@
 name: 'Recipe Issues'
 description: 'Report any recipe issues using this form'
 labels:
-  - 'Bug'
+  # - 'Bug'
   - 'type: Recipe'
 type: 'Bug'
 assignees:

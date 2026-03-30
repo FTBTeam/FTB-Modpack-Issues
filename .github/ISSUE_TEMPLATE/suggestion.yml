@@ -1,7 +1,7 @@
 name: 'Suggestion'
 description: 'Suggestion'
-labels:
-  - 'Enhancement'
+# labels:
+#   - 'Enhancement'
 type: 'Feature'
 body:
   - type: 'dropdown'

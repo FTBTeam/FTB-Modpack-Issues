@@ -1,7 +1,7 @@
 name: 'Other Modpack Issues'
 description: 'If your issue doesnt fit into the other issue templates, use this'
-labels:
-  - 'Bug'
+# labels:
+#   - 'Bug'
 type: 'Bug'
 body:
   - type: 'markdown'

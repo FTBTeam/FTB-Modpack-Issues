@@ -1,8 +1,8 @@
 name: 'Questing/Content Issues'
 description: 'Issues related to quests or modpack specific content (broken quest
   images/typos/wrong descriptions/structure issues ect)'
-labels:
-  - 'Bug'
+# labels:
+#   - 'Bug'
 type: 'Bug'
 body:
   - type: 'markdown'
