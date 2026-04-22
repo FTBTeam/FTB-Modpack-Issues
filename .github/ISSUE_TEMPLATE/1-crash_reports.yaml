@@ -1,7 +1,6 @@
 name: 'Crash Report'
 description: 'Use this form if you are running into any crashes or disconnects'
 labels:
-  # - 'Bug'
   - 'type: Crash/Disconnect'
 type: 'Bug'
 body:
@@ -9,19 +8,19 @@ body:
     attributes:
       value: '## Please Read the following
 
-        - If you are having issues with a specific mod, we recommend
-        reporting the issue directly to the mod author
+        - If you are having issues with a specific mod, we recommend reporting
+        the issue directly to the mod author
 
-        - Only 1 issue per bug report, if you need to report multiple
-        issues, open multiple bug reports
-        
+        - Only 1 issue per bug report, if you need to report multiple issues,
+        open multiple bug reports
+
         ## Common solutions
 
         - Updating the pack to the latest available version
 
         - If you have added/updated/removed any mods, either undo the changes or
-        install a second unmodified copy of the modpack and test if the issue still happens'
-  
+        install a second unmodified copy of the modpack and test if the issue
+        still happens'
   - type: 'dropdown'
     id: 'triedSolutions'
     attributes:
@@ -31,13 +30,13 @@ body:
         - 'Yes'
     validations:
       required: true
-  
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'
     attributes:
       label: 'Modpack'
       description: 'What modpack are you having an issue with?'
       options:
+        - 'FTB Unstable 6'
         - 'FTB StoneBlock 4'
         - 'FTB Skies 2'
         - 'FTB OceanBlock 2'
@@ -71,6 +70,7 @@ body:
         - 'FTB University 1.16'
         - 'FTB Academy 1.16'
         - 'FTB Cotton'
+        - 'FTB Infinity Lite 1.10'
         - 'FTB Endeavour'
         - 'FTB Presents Direwolf20 1.16'
         - 'FTB Mage Quest'
@@ -83,11 +83,14 @@ body:
         - 'Direwolf20 1.4.7'
         - 'FTB Monster'
         - 'FTB Horizons'
+        - 'FTB Unleashed'
+        - 'Direwolf20 1.5.2'
         - 'FTB Presents Direwolf20 - 1.6.4'
         - 'FTB Magic World 2'
         - 'FTB Tech World 2'
         - 'Slow''s Stream Pack'
         - 'Pax East 2014 Map'
+        - 'FTB Unhinged'
         - 'FTB Lite'
         - 'FTB Pax Challenge Pack 2013'
         - 'FTB University 1.12'
@@ -130,7 +133,6 @@ body:
         - 'Other...'
     validations:
       required: true
-  
   - type: 'input'
     id: 'modpack-version'
     attributes:
@@ -139,7 +141,6 @@ body:
       placeholder: 'e.g. 1.1.5'
     validations:
       required: true
-  
   - type: 'textarea'
     id: 'bug-desc'
     attributes:
@@ -148,7 +149,6 @@ body:
         screenshots that can help explain the issue'
     validations:
       required: true
-  
   - type: 'textarea'
     id: 'logs'
     attributes:
@@ -159,7 +159,6 @@ body:
         debug.log file from the modpack folder.'
     validations:
       required: true
-  
   - type: 'textarea'
     id: 'reproduce'
     attributes:
@@ -173,7 +172,6 @@ body:
         3. Scroll down to ...
 
         4. See error'
-  
   - type: 'textarea'
     id: 'additional-info'
     attributes:
@@ -184,7 +182,6 @@ body:
       placeholder: 'Any other information that may help debug the issue. If you
         have         modified the modpack please let us know what was changed
         here'
-  
   - type: 'dropdown'
     id: 'modded-dropdown'
     attributes:
@@ -197,7 +194,6 @@ body:
         - 'No'
     validations:
       required: true
-
   - type: 'textarea'
     id: 'additional'
     attributes:
