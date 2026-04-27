@@ -157,6 +157,13 @@ body:
         screenshots that can help explain the issue'
     validations:
       required: true
+  - type: 'markdown'
+    attributes:
+      value: |
+        > [!IMPORTANT]  
+        > **Logs are required**, A guide on finding modpack logs can be found at https://docs.feed-the-beast.com/docs/support/Troubleshooting/modpack-logs
+        >
+        > If no logs are provided, your issue may be closed
   - type: 'textarea'
     id: 'logs'
     attributes:
@@ -167,13 +174,6 @@ body:
         debug.log file from the modpack folder.'
     validations:
       required: true
-  - type: 'markdown'
-    attributes:
-      value: |
-        > [!IMPORTANT]  
-        > **Logs are required**, A guide on finding modpack logs can be found at https://docs.feed-the-beast.com/docs/support/Troubleshooting/modpack-logs
-        >
-        > If no logs are provided, your issue may be closed
   - type: 'textarea'
     id: 'reproduce'
     attributes:
