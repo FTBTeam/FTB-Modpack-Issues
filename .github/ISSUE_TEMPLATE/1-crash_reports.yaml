@@ -141,6 +141,14 @@ body:
       placeholder: 'e.g. 1.1.5'
     validations:
       required: true
+  - type: input
+    id: launcher
+    attributes:
+      label: Launcher/App used to start the modpack
+      description: What is the name of the launcher/app you are using to start the modpack?
+      placeholder: e.g. FTB App/CurseForge/Prism
+    validations:
+      required: true
   - type: 'textarea'
     id: 'bug-desc'
     attributes:
@@ -159,6 +167,13 @@ body:
         debug.log file from the modpack folder.'
     validations:
       required: true
+  - type: 'markdown'
+    attributes:
+      value: |
+        > [!IMPORTANT]  
+        > **Logs are required**, A guide on finding modpack logs can be found at https://docs.feed-the-beast.com/docs/support/Troubleshooting/modpack-logs
+        >
+        > If no logs are provided, your issue may be closed
   - type: 'textarea'
     id: 'reproduce'
     attributes:

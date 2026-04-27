@@ -139,6 +139,14 @@ body:
       placeholder: 'e.g. 1.1.5'
     validations:
       required: true
+  - type: input
+    id: launcher
+    attributes:
+      label: Launcher/App used to start the modpack
+      description: What is the name of the launcher/app you are using to start the modpack?
+      placeholder: e.g. FTB App/CurseForge/Prism
+    validations:
+      required: true
   - type: 'textarea'
     id: 'bug-desc'
     attributes:
