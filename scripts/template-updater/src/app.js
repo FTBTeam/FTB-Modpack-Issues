@@ -57,7 +57,7 @@ const runScript = async () => {
 
     // Ignore null packs,
     const modpacks = apiModpacks
-        .filter(e => e !== null && e.private !== true) // technically this can't be true but just to be sure :D
+        .filter(e => e !== null && e.private !== true && e.meta.isLegacy !== true) // technically private can't be true but just to be sure :D
         .sort((a, b) => b.id - a.id);
 
     // Create the input to push into the yml file.
