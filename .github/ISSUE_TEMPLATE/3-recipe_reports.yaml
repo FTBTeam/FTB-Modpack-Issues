@@ -7,19 +7,6 @@ assignees:
   - 'DinnerBeef'
   - 'ArtpokeBr'
 body:
-  - type: 'markdown'
-    attributes:
-      value: "> [!IMPORTANT] \ 
-
-        > Only modpacks within our active support lifecycle are supported. If
-        your modpack is not listed in the dropdown below, it may no longer be
-        supported and the issue may closed.
-
-        >
-
-        > If there is a critical bug/exploit in an older pack and you wish to
-        report it please select 'Other...' and name the modpack in the bug
-        description\n"
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'
     attributes:
@@ -44,6 +31,19 @@ body:
         - 'Other...'
     validations:
       required: true
+  - type: 'markdown'
+    attributes:
+      value: "> [!IMPORTANT] \ 
+
+        > Only modpacks within our active support lifecycle are supported. If
+        your modpack is not listed in the dropdown below, it may no longer be
+        supported and the issue may closed.
+
+        >
+
+        > If there is a critical bug/exploit in an older pack and you wish to
+        report it please select 'Other...' and name the modpack in the bug
+        description\n"
   - type: 'input'
     id: 'modpack-version'
     attributes:
