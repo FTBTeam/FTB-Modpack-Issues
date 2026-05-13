@@ -45,6 +45,7 @@ body:
         - 'FTB Interactions Remastered'
         - 'FTB Skies'
         - 'FTB StoneBlock 3'
+        - 'FTB Inferno'
         - 'Other...'
     validations:
       required: true
