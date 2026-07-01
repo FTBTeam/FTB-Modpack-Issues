@@ -3,9 +3,6 @@ description: 'Report any recipe issues using this form'
 labels:
   - 'type: Recipe'
 type: 'Bug'
-assignees:
-  - 'DinnerBeef'
-  - 'ArtpokeBr'
 body:
   - type: 'dropdown'
     id: 'ftb-modpack-dropdown'
