@@ -2,6 +2,8 @@ name: 'Quest/Content Issues'
 description: 'Issues related to quests or modpack specific content (broken quest
   images/typos/wrong descriptions/structure issues ect)'
 type: 'Bug'
+assignees:
+  - 'LegendaryRylex'
 body:
   - type: 'markdown'
     attributes:
