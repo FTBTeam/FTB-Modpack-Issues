@@ -4,8 +4,6 @@ description: 'Issues related to quests or modpack specific content (broken quest
 type: 'Bug'
 labels:
  - 'type: Quest'
-assignees:
-  - 'LegendaryRylex'
 body:
   - type: 'markdown'
     attributes:
