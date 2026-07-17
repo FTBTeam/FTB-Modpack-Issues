@@ -10,6 +10,7 @@ body:
       label: 'Modpack'
       description: 'What modpack are you having an issue with?'
       options:
+        - 'FTB Skies 2: Aero'
         - 'FTB Unstable 6'
         - 'FTB StoneBlock 4'
         - 'FTB Skies 2'
