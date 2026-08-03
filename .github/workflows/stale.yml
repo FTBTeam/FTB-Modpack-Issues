@@ -13,7 +13,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v10
+      - uses: actions/stale@v11
         name: 'Stale Issues'
         with:
           stale-issue-message: 'This issue has been marked as stale. Please reply to the issue or the issue will be automatically closed in 3 days.'
@@ -31,7 +31,7 @@ jobs:
           # exempt-all-issue-assignees: true
 
       # Stale mod issues    
-      - uses: actions/stale@v10
+      - uses: actions/stale@v11
         name: Stale Mod Issue
         with:
           stale-issue-message: '@Gaz492 @Saereth Please check if the mod has recieved an update, if there has been no mod updates this issue will close in 24 hours'
