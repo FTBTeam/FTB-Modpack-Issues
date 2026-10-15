@@ -38,7 +38,6 @@ body:
       options:
         - 'FTB Evolution 2'
         - 'FTB Skies 2: Aero'
-        - 'FTB Unstable 6'
         - 'FTB StoneBlock 4'
         - 'FTB Skies 2'
         - 'FTB OceanBlock 2'
@@ -48,7 +47,6 @@ body:
         - 'FTB NeoTech'
         - 'FTB Builders Paradise 2'
         - 'FTB Skies Expert'
-        - 'FTB Arcanum Institute'
         - 'FTB Interactions Remastered'
         - 'FTB Skies'
         - 'FTB Inferno'
